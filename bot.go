@@ -133,7 +133,7 @@ func (b *Bot) UpdateStatus(game string) error {
 }
 
 // UpTime is the time the bot has been active for
-func (b Bot) UpTime() time.Duration {
+func (b *Bot) UpTime() time.Duration {
 	b.Mu.RLock()
 	defer b.Mu.RUnlock()
 
