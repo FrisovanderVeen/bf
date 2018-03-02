@@ -8,7 +8,7 @@ import (
 	"syscall"
 
 	"github.com/BurntSushi/toml"
-	bf "github.com/FrisovanderVeen/bf"
+	"github.com/fvdveen/bf"
 )
 
 type tomlConfig struct {

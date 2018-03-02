@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/FrisovanderVeen/bf"
 	"github.com/Sirupsen/logrus"
+	"github.com/fvdveen/bf"
 )
 
 var test = &bf.NewCommand(

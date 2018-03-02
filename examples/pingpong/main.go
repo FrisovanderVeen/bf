@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	bf "github.com/FrisovanderVeen/bf"
+	"github.com/fvdveen/bf"
 )
 
 var ping = bf.NewCommand(
